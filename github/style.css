@@ -1,0 +1,170 @@
+    body {
+    margin: 0;
+}
+.header {
+    padding: 0 5rem;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: rgb(34, 34, 34);
+}
+.header_left {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    align-content: center;
+}
+.header_left img {
+    width: 70px;
+}
+.header_left a {
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    align-self: center;
+    transition: 0.2s;
+}
+.header_left a:hover {
+    color: rgb(133, 133, 133);
+    transition: 0.2s;
+}
+.header_right {
+    display: grid;
+    justify-content: end;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 1rem;
+}
+.header_right input {
+    display: grid;
+    align-self: center;
+    border-radius: 3px;
+    border: none;
+    padding: 7px;
+    background: rgb(77, 77, 77);
+}
+.sign_in {
+    display: grid;
+    align-self: center;
+    border-radius: 3px;
+    border: none;
+    padding: 7px;
+    background: transparent;
+    color: #fff;
+    transition: 0.2s;
+    cursor: pointer;
+    font-size: 16px;
+}
+.sign_in:hover {
+    background: rgb(70, 70, 70);
+    transition: 0.2s;
+}
+.sign_up {
+    display: grid;
+    align-self: center;
+    border-radius: 3px;
+    border: none;
+    padding: 7px;
+    background: transparent;
+    border-radius: 3px;
+    border: #fff 1px solid;
+    color: #fff;
+    transition: 0.2s;
+    cursor: pointer;
+    font-size: 16px;
+}
+.content {
+    height: calc(100vh - 60px);
+    background-image: url('./assets/168676-minimalism.jpg');
+    backdrop-filter: brightness(-20);
+}
+.content_filter {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: grid;
+    padding: 0 12rem;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 4rem;
+}
+.content_filter__left {
+    display: grid;
+    align-self: center;
+    grid-gap: 1rem;
+}
+.title {
+    font-size: 60px;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 1;
+}
+.description {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(143, 143, 143);
+    line-height: 1.5;
+}
+.description a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+.content_filter__right {
+    display: grid;
+    padding: 4rem 0 1rem 0;
+}
+.card {
+    background: #fff;
+    border-radius: 4px;
+    padding: 0 1rem 1rem 1rem;
+    display: grid;
+    grid-template-rows: auto auto auto auto 1fr auto;
+}
+.card_input {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.label {
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 15px 0 10px 0;
+}
+.card_input input {
+    height: 40px;
+}
+.text {
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+.text a {
+    color: rgb(0, 102, 255);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.text a:hover {
+    color: rgb(0, 78, 194);
+    transition: 0.2s;
+}
+.card_button {
+    display: grid;
+    padding: 2rem 0;
+}
+.card_button button {
+    border-radius: 4px;
+    border: none;
+    background: rgb(0, 185, 56);
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.card_stuf {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: rgb(139, 139, 139);
+}
+.card_stuf a {
+    color: rgb(0, 102, 255);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.card_stuf a:hover {
+    color: rgb(0, 78, 194);
+    transition: 0.2s;
+}

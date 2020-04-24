@@ -1,0 +1,182 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    height: 90px;
+    background: #4267B2;
+    align-content: center;
+    display: grid;
+}
+.header_content {
+    padding: 0 12rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5rem;
+}
+.header__logo {
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    font-size: 40px;
+}
+.header__input {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    align-self: center;
+}
+.header__input___info {
+    height: 35px;
+}
+.header__input___pass {
+    height: 35px;
+}
+.header__input___login {
+    border-radius: 2px;
+    border: none;
+    height: 33px;
+    color: #fff;
+    transition: 0.2s;
+    background: rgb(79, 123, 209);
+}
+.no_pass {
+    color: #e8e8e8;
+    font-family: sans-serif;
+    font-size: 13px;
+    padding-top: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.no_pass:hover {
+    color: #c0c0c0;
+    transition: 0.2s;
+}
+.label {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-top: -20px;
+    padding-bottom: 3px;
+}
+.header__input___login:hover {
+    transition: 0.2s;
+    background: rgb(63, 96, 161);
+}
+.content {
+    padding: 0 12rem;
+    background: rgb(226, 236, 255);
+    height: calc(100vh - 110px);
+    background:linear-gradient(0deg, #b6c1da, #FFFFFF);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4rem;
+    margin-top: 20px;
+}
+.content_right {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto 1fr;
+    grid-gap: 0.5rem;
+}
+.content_right__title {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.content_right__description {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgb(43, 43, 43);
+}
+.content_right__inputgroup {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 10px;
+}
+.content_right__inputgroup___number,
+.content_right__inputgroup___pass {
+    grid-column: 1 / -1;
+}
+.content_right__date___title {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgb(43, 43, 43);
+    padding-top: 15px;
+}
+.content_right__date___content {
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    grid-gap: 1rem;
+}
+.content_right__date___content_left {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: 50px 70px 70px;
+    margin-top: 6px;
+}
+.content_right__date___content_right__link {
+    font-size: 13px;
+    font-family: sans-serif;
+    color: rgb(63, 96, 161);
+    margin-top: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.content_right__date___content_right__link:hover {
+    color: rgb(41, 69, 126);
+    transition: 0.2s;
+    text-decoration: underline;
+}
+.content_right__gender {
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    grid-gap: 1rem;
+    padding: 0.5rem 0;
+}
+.content_right__gender___female,
+.content_right__gender___male {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+.content_right__gender___female_label,
+.content_right__gender___male_label {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgb(43, 43, 43);
+    margin-top: 3px;
+    margin-left: 4px;
+}
+.content_right__text {
+    font-size: 13px;
+    font-family: sans-serif;
+    color: rgb(66, 66, 66);
+}
+.content_right__button {
+    padding: 0.5rem 0;
+}
+.content_right__button___content {
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background: rgb(40, 145, 40);
+    border: none;
+    padding: 0 30px;
+    border-radius: 3px;
+    transition: 0.2s;   
+}
+.content_right__button___content:hover {
+    background: rgb(44, 131, 44);
+    transition: 0.2s;
+}
+.content_right__createbutton {
+    font-size: 13px;
+    font-family: sans-serif;
+    color: rgb(66, 66, 66);
+}
+.content_left__title {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgb(28, 68, 148);
+    font-weight: 600;
+    margin-top: 10px;
+}

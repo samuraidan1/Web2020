@@ -1,0 +1,140 @@
+body {
+    background: #f8f8f8;
+    padding: 1rem 15rem;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+.top {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+.top_right {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-gap: 1rem;
+}
+.top_right__input {
+    background: #fff;
+    padding: 1rem 2rem 2rem 2rem;
+    display: grid;
+    grid-template-rows: repeat(6, auto) 1fr;
+    box-shadow: 0 0 2px rgba(0,0,0,0.1);
+}
+.top_right__input * {
+    display: grid;
+    justify-content: center;
+}
+.top_right__input___logo {
+    display: grid;
+    justify-self: center;
+}
+img {
+    height: 50px;
+}
+.top_right__input___text {
+    font-family: sans-serif;
+    text-align: center;
+    color: #8b8b8b;
+}
+.top_right__input___facebook {
+    display: grid;
+    padding-top: 1rem;
+    grid-template-columns: 1fr;
+}
+.top_right__input___facebook > button {
+    border-radius: 3px;
+    border: none;
+    padding: 7px 2rem;
+    color: #fff;
+    background: #4a8cee;
+}
+.top_right__input___or {
+    padding-top: 0.7rem;
+    font-family: sans-serif;
+    text-align: center;
+    color: #8b8b8b;
+}
+.top_right__input___inputgroup {
+    padding-top: 0.7rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 6px;
+}
+.top_right__input___inputgroup > input {
+    border: #f1f1f1 1px solid;
+    padding: 7px 10px;
+    border-radius: 4px;
+    background: #fafafa;
+}
+.top_right__input___reg {
+    padding-top: 0.7rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.top_right__input___reg > button {
+    border-radius: 3px;
+    border: none;
+    padding: 7px 2rem;
+    color: #fff;
+    background: #4a8cee;
+}
+.top_right__input___desc {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #6b6b6b;
+    padding-top: 1rem;
+    line-height: 1.25;
+    text-align: center;
+}
+.top_right__login {
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,0.1);
+    padding: 20px 0;
+    font-size: 12px;
+    font-family: sans-serif;
+    display: grid;
+    text-align: center;
+}
+.top_right__login a {
+    color: rgb(0, 38, 255);
+    text-decoration: none;
+}
+
+.top_right__apps {
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.top_right__apps___title {
+    padding-bottom: 1rem;
+}
+.top_right__apps img {
+    height: 40px;
+    cursor: pointer;
+}
+.bottom {
+    padding-top: 3rem;
+    display: grid;
+    grid-gap: 0.5rem;
+}
+.bottom_links {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.bottom_links a {
+    text-decoration: none;
+    color: #002a69
+}
+.bottom_licens {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #6b6b6b
+}
+.top_left img {
+    height: 90vh;
+}
